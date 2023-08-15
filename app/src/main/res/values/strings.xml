@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AtlasNaviAIDetection</string>
+
+    <string name="photo_action_not_supported">Saving photo while filming is currently not supported</string>
+    <string name="successfully_saved_photo">Successfully saved photo</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="select">Select</string>
+    <string name="refresh">Refresh</string>
+</resources>

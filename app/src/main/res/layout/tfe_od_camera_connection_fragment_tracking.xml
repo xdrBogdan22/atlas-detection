@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.atlasnaviaidetection.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.example.atlasnaviaidetection.usb.widget.UVCCameraTextureView
+        android:id="@+id/external_camera_view"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp" />
+
+    <com.example.atlasnaviaidetection.OverlayView
+        android:id="@+id/tracking_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/inference_info2"
+        android:layout_width="95dp"
+        android:layout_height="57dp"
+        android:text="Inference time: " />
+
+</FrameLayout>
